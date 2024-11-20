@@ -1,0 +1,69 @@
+body{
+    background-image:url(images/rentbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.nav_area ul {
+    list-style: none;
+    
+}
+.nav_area a{
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-container {
+    background-color: #ffffff9e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+    margin: 20 auto;
+    
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.form-container button{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

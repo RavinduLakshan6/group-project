@@ -1,0 +1,45 @@
+body{
+    background-image:url(images/rentbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.cars{
+    border: 1px solid black;
+    background-color: rgba(131, 181, 214, 0.63);
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    height: 330px;
+}
+
+.cars:hover{
+    background-color: rgba(131, 195, 214, 0.8);
+    border: 1px solid white;
+}
+.cars img{
+    width: 300px;
+}
+.tb{
+    display: flex;
+    justify-content: space-around;
+}
+.cars h4{
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.cars button{
+    border-radius: 0%;
+    background-color: #0081e0c7;
+    width: 150px;
+    height: 30px;
+    font-weight: 600;
+    color:white;
+ 
+}
+.cars button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    color: black;
+}
